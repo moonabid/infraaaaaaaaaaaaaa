@@ -1,5 +1,5 @@
 resource "aws_instance" "webw"{
-  ami           = "ami-09a81b370b76de6a2"
+  ami           = "ami-0e83be366243f524a"
   instance_type = "t2.medium"
 
   tags = {
