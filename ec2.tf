@@ -1,6 +1,6 @@
 resource "aws_instance" "webw"{
-  ami           = "ami-0efcece6bed30fd98"
-  instance_type = "t2.micro"
+  ami           = "ami-09a81b370b76de6a2"
+  instance_type = "t2.medium"
 
   tags = {
     Name = "ec2"
